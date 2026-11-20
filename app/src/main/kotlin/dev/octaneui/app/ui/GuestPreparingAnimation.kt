@@ -28,6 +28,10 @@ const val GUEST_PREPARING_GIF = "boot/guest_preparing.gif"
  */
 @Composable
 fun GuestPreparingAnimation(modifier: Modifier = Modifier.size(112.dp)) {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.P) {
+        CircularProgressIndicator(modifier)
+        return
+    }
     val ctx = LocalContext.current
     val drawable by produceState<AnimatedImageDrawable?>(initialValue = null, ctx) {
         value = withContext(Dispatchers.IO) { loadGif(ctx) }
@@ -49,7 +53,7 @@ fun GuestPreparingAnimation(modifier: Modifier = Modifier.size(112.dp)) {
 }
 
 private fun loadGif(ctx: android.content.Context): AnimatedImageDrawable? {
-    if (Build.VERSION.SDK_INT < 28) return null
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.P) return null
     return runCatching {
         ImageDecoder.decodeDrawable(ImageDecoder.createSource(ctx.assets, GUEST_PREPARING_GIF)) as? AnimatedImageDrawable
     }.getOrNull()

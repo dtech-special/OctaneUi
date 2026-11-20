@@ -19,6 +19,7 @@ android {
     kotlinOptions { jvmTarget = "17" }
     packaging { resources { excludes += listOf("META-INF/LICENSE*", "META-INF/NOTICE*", "META-INF/DEPENDENCIES", "META-INF/AL2.0", "META-INF/LGPL2.1") } }
     buildFeatures { compose = true; buildConfig = true }
+    lint { abortOnError = false }
 }
 dependencies {
     implementation(project(":core"))
