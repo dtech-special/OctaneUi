@@ -424,10 +424,6 @@ System files, its metadata and layers not used by other images will be deleted. 
     <string name="dry_selinux">SELinux stays Enforcing</string>
     <string name="dry_watchdog">Root supervisor and watchdog</string>
     <string name="log_emergency_return">Emergency return: %1$s</string>
-    <string name="log_layers_merged">Layers merged: %1$s (files %2$s, directories %3$s, symlinks %4$s, whiteouts %5$s, skipped %6$s)</string>
-    <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
-    <string name="log_start_blocked_preflight">Start blocked by the preflight: %1$s</string>
-    <string name="log_emergency_return">Emergency return: %1$s</string>
     <string name="log_layers_merged">Layers merged (%1$s): %2$s files, %3$s directories, %4$s symlinks, %5$s whiteouts, %6$s skipped</string>
     <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
     <string name="log_start_blocked_preflight">Start refused by the preflight: %1$s</string>

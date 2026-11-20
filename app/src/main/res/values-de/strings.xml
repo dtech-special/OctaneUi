@@ -423,10 +423,6 @@ Systemdateien, Metadaten und Schichten, die kein anderes Image nutzt, werden gel
     <string name="dry_selinux">SELinux bleibt Enforcing</string>
     <string name="dry_watchdog">Root-Supervisor und Watchdog</string>
     <string name="log_emergency_return">Notfall-Rückkehr: %1$s</string>
-    <string name="log_layers_merged">Schichten zusammengeführt: %1$s (Dateien %2$s, Verzeichnisse %3$s, Symlinks %4$s, Whiteouts %5$s, übersprungen %6$s)</string>
-    <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
-    <string name="log_start_blocked_preflight">Start durch Preflight blockiert: %1$s</string>
-    <string name="log_emergency_return">Notfall-Rückkehr: %1$s</string>
     <string name="log_layers_merged">Schichten zusammengeführt (%1$s): %2$s Dateien, %3$s Verzeichnisse, %4$s Symlinks, %5$s Whiteouts, %6$s übersprungen</string>
     <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
     <string name="log_start_blocked_preflight">Start durch Preflight verweigert: %1$s</string>

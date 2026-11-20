@@ -423,10 +423,6 @@
     <string name="dry_selinux">SELinux 保持 Enforcing</string>
     <string name="dry_watchdog">root 监督进程与 watchdog</string>
     <string name="log_emergency_return">紧急返回：%1$s</string>
-    <string name="log_layers_merged">已合并层：%1$s（文件 %2$s，目录 %3$s，符号链接 %4$s，whiteout %5$s，跳过 %6$s）</string>
-    <string name="log_preflight_check">预检 L%1$s：%2$s = %3$s %4$s</string>
-    <string name="log_start_blocked_preflight">预检阻止了启动：%1$s</string>
-    <string name="log_emergency_return">紧急返回：%1$s</string>
     <string name="log_layers_merged">已合并层（%1$s）：%2$s 个文件，%3$s 个目录，%4$s 个符号链接，%5$s 个 whiteout，跳过 %6$s 个</string>
     <string name="log_preflight_check">预检 L%1$s：%2$s = %3$s %4$s</string>
     <string name="log_start_blocked_preflight">预检拒绝启动：%1$s</string>

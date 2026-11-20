@@ -424,10 +424,6 @@
     <string name="dry_selinux">SELinux остаётся Enforcing</string>
     <string name="dry_watchdog">Root-супервизор и watchdog</string>
     <string name="log_emergency_return">Аварийный возврат: %1$s</string>
-    <string name="log_layers_merged">Объединено слоёв: %1$s (файлов %2$s, каталогов %3$s, симлинков %4$s, whiteout %5$s, пропущено %6$s)</string>
-    <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
-    <string name="log_start_blocked_preflight">Запуск заблокирован preflight: %1$s</string>
-    <string name="log_emergency_return">Аварийный возврат: %1$s</string>
     <string name="log_layers_merged">Слои объединены (%1$s): файлов %2$s, каталогов %3$s, симлинков %4$s, whiteout %5$s, пропущено %6$s</string>
     <string name="log_preflight_check">Preflight L%1$s: %2$s = %3$s %4$s</string>
     <string name="log_start_blocked_preflight">Запуск запрещён preflight: %1$s</string>
