@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OctaneUi logo (from Frame_3.svg). The white background rect of the SVG is the adaptive icon background layer. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <path android:fillColor="#000000" android:pathData="M108.667 156.429L70 137.143V175.714L108.667 195V156.429Z" />
+    <path android:fillColor="#000000" android:pathData="M147.333 98.5714L186 117.857V79.2857L147.333 60V98.5714Z" />
+    <path android:fillColor="#000000" android:pathData="M108.667 156.429L147.333 137.143V175.714L108.667 195V156.429Z" />
+    <path android:fillColor="#000000" android:pathData="M147.333 137.143L186 117.857V156.429L147.333 175.714V137.143Z" />
+    <path android:fillColor="#000000" android:pathData="M70 98.5714L108.667 79.2857V117.857L70 137.143V98.5714Z" />
+    <path android:fillColor="#000000" android:pathData="M108.667 79.2857L147.333 60V98.5714L108.667 117.857V79.2857Z" />
+</vector>

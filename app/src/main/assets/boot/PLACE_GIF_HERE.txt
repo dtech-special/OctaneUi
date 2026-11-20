@@ -1,0 +1,1 @@
+Place the provided GIF here as guest_preparing.gif (it is shown while the guest is being prepared).
